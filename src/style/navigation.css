@@ -1,0 +1,28 @@
+.nav-bar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 60px;
+	width: 100%;
+	background-color: rgb(99, 99, 99);
+}
+
+.nav-btn {
+	text-decoration: none;
+	padding: 19px 50px;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgb(209, 209, 209);
+}
+
+.nav-btn:hover {
+	color: aqua;
+	border-bottom: 5px solid aqua;
+}
+
+.active {
+	color: aqua;
+	border-bottom: 5px solid aqua;
+}

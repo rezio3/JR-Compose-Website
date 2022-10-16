@@ -1,0 +1,6 @@
+.page-container {
+	background-color: #ddd;
+	margin: 20px auto;
+	width: 70%;
+	min-height: 100vh;
+}
