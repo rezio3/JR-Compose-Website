@@ -20,15 +20,16 @@ class NavigationMobile extends Component {
 	render() {
 		return (
 			<nav className="nav-bar">
-				{this.state.isBurgerIconActive ? (
-					<button onClick={this.handleBurgerActive}>KLIKNIJ</button>
-				) : (
+				{this.state.isBurgerIconActive ? null : (
 					<button className="burger-icon" onClick={this.handleBurgerActive}>
 						<i className="fa-solid fa-bars"></i>
 					</button>
 				)}
 				{this.state.isBurgerIconActive ? (
-					<NavigationInBurgerIcon state={this.state.isBurgerIconActive} />
+					<NavigationInBurgerIcon
+						state={this.state.isBurgerIconActive}
+						btnHandle={this.handleBurgerActive}
+					/>
 				) : null}
 			</nav>
 		);
