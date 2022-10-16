@@ -8,21 +8,24 @@
 	background-color: rgb(99, 99, 99);
 }
 
-.nav-btn {
+.nav-btn-desktop {
 	text-decoration: none;
 	padding: 19px 50px;
 	font-size: 15px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: rgb(209, 209, 209);
+	transition: 0.2s;
 }
 
-.nav-btn:hover {
+.nav-btn-desktop:hover {
 	color: aqua;
 	border-bottom: 5px solid aqua;
+	text-shadow: 0 0 10px rgba(0, 255, 255, 0.384);
 }
 
 .active {
 	color: aqua;
 	border-bottom: 5px solid aqua;
+	text-shadow: 0 0 10px rgba(0, 255, 255, 0.384);
 }
