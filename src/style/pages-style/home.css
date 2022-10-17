@@ -1,8 +1,16 @@
+.home-split-line {
+	background-color: black;
+	height: 3px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
 .musical-container {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: start;
 	padding: 30px 0;
+	margin-bottom: 50px;
 	border-radius: 30px;
 	background-color: rgb(37, 37, 37);
 	box-shadow: 0 0 20px black;
