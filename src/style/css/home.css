@@ -18,8 +18,10 @@
 .musical-container .musical-text-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
   color: white;
   margin: 0 30px 0 30px;
+  text-align: center;
 }
 .musical-container .musical-text-content a {
   text-decoration: none;
@@ -90,19 +92,54 @@
   background-color: rgb(51, 51, 51);
 }
 
+.faustgeist-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  padding: 30px 0;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  background-color: rgb(37, 37, 37);
+  box-shadow: 0 0 20px black;
+}
+.faustgeist-container .faustgeist-text-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0 30px 0 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+.faustgeist-container .faustgeist-text-content audio {
+  margin-top: 20px;
+}
+
+.faustgeist-img {
+  width: 90%;
+  height: 90%;
+  border-radius: 25px;
+  margin-left: 30px;
+  box-shadow: 0 0 10px black;
+}
+
 @media (max-width: 700px) {
   .tiffany-img,
-.gaming-loops-img {
+.gaming-loops-img,
+.faustgeist-img {
     margin: 0;
     width: 280px;
   }
   .musical-container,
-.gaming-loops-container {
+.gaming-loops-container,
+.faustgeist-container {
     flex-direction: column;
     align-items: center;
   }
   .musical-text-content,
-.gaming-loops-text-content {
+.gaming-loops-text-content,
+.faustgeist-text-content {
     align-items: center;
     text-align: center;
   }
