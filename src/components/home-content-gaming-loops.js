@@ -22,7 +22,8 @@ const GamingLoops = () => {
 				<h2>Gaming Loops</h2>
 				<p>
 					Over 1,000 loops for your production! Film/Game/Apps music loops with
-					wide choice. Huge orchestra complied with electronic sounds.
+					wide choice. Here is my bundle - huge orchestra complied with
+					electronic sounds.
 				</p>
 				<span class="gaming-loops-shop">
 					<a href="https://gamingloops.com/secret-jungle">
