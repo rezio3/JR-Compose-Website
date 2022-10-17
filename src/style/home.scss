@@ -1,3 +1,5 @@
+@import "./colors";
+
 .home-split-line {
 	background-color: black;
 	height: 3px;
@@ -22,6 +24,10 @@
 		color: white;
 		margin: 0 30px 0 30px;
 		text-align: center;
+
+		h2 {
+			animation: glowing 1.5s ease-in-out infinite;
+		}
 
 		a {
 			text-decoration: none;
@@ -65,6 +71,10 @@
 		text-align: center;
 		justify-content: center;
 		height: 100%;
+
+		h2 {
+			animation: glowing 1.5s ease-in-out infinite;
+		}
 	}
 }
 
@@ -117,6 +127,10 @@
 		justify-content: center;
 		height: 100%;
 
+		h2 {
+			animation: glowing 1.5s ease-in-out infinite;
+		}
+
 		audio {
 			margin-top: 20px;
 		}
@@ -154,5 +168,19 @@
 	.faustgeist-text-content {
 		align-items: center;
 		text-align: center;
+	}
+}
+
+@keyframes glowing {
+	0% {
+		color: $first-color;
+	}
+
+	50% {
+		color: $hover-color;
+		text-shadow: $hover-shadow;
+	}
+	100% {
+		color: $first-color;
 	}
 }

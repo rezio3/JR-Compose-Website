@@ -23,6 +23,9 @@
   margin: 0 30px 0 30px;
   text-align: center;
 }
+.musical-container .musical-text-content h2 {
+  animation: glowing 1.5s ease-in-out infinite;
+}
 .musical-container .musical-text-content a {
   text-decoration: none;
   color: rgb(0, 197, 211);
@@ -62,6 +65,9 @@
   text-align: center;
   justify-content: center;
   height: 100%;
+}
+.gaming-loops-container .gaming-loops-text-content h2 {
+  animation: glowing 1.5s ease-in-out infinite;
 }
 
 .gaming-loops-img {
@@ -112,6 +118,9 @@
   justify-content: center;
   height: 100%;
 }
+.faustgeist-container .faustgeist-text-content h2 {
+  animation: glowing 1.5s ease-in-out infinite;
+}
 .faustgeist-container .faustgeist-text-content audio {
   margin-top: 20px;
 }
@@ -142,5 +151,17 @@
 .faustgeist-text-content {
     align-items: center;
     text-align: center;
+  }
+}
+@keyframes glowing {
+  0% {
+    color: aqua;
+  }
+  50% {
+    color: rgb(98, 255, 255);
+    text-shadow: 0 0 5px rgb(79, 255, 255);
+  }
+  100% {
+    color: aqua;
   }
 }
