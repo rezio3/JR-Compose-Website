@@ -4,7 +4,7 @@ import "../style/css/navigationDesktop.css";
 
 const NavigationDesktop = () => {
 	return (
-		<nav className="nav-bar">
+		<nav className="nav-bar-desktop">
 			<NavLink to="/" end className="nav-btn-desktop">
 				Home
 			</NavLink>

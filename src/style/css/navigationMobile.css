@@ -1,15 +1,28 @@
-.nav-bar {
+.nav-bar-mobile {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 60px;
   width: 100%;
   background-color: rgb(58, 58, 58);
   overflow: visible;
 }
-.nav-bar .burger-icon {
+.nav-bar-mobile .jrcompose-logo-container {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+.nav-bar-mobile .jrcompose-logo-container .treble-clef-img {
+  width: 35px;
+}
+.nav-bar-mobile .jrcompose-logo-container .jrcompose-span {
+  font-size: 28px;
+  color: white;
+  font-family: "Hammersmith One", sans-serif;
+  font-style: italic;
+}
+.nav-bar-mobile .burger-icon {
   display: block;
-  margin: 0 0 0 auto;
   padding: 3px 20px;
   background: none;
   border: none;
@@ -18,10 +31,10 @@
   cursor: pointer;
   transition: 0.2s;
 }
-.nav-bar .burger-icon:hover {
+.nav-bar-mobile .burger-icon:hover {
   color: rgb(98, 255, 255);
   text-shadow: 0 0 5px rgb(79, 255, 255);
 }
-.nav-bar .deactive {
+.nav-bar-mobile .deactive {
   display: none;
 }
