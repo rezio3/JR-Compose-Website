@@ -15,14 +15,28 @@
 	border-radius: 30px;
 	background-color: rgb(37, 37, 37);
 	box-shadow: 0 0 20px black;
-}
 
-.musical-text-content,
-.gaming-loops-text-content {
-	display: flex;
-	flex-direction: column;
-	color: white;
-	margin: 0 30px 0 30px;
+	.tiffany-img {
+		width: 30%;
+		height: 30%;
+		border-radius: 25px;
+		margin-left: 30px;
+		box-shadow: 0px 0px 10px black;
+	}
+
+	.musical-text-content,
+	.gaming-loops-text-content {
+		display: flex;
+		flex-direction: column;
+		color: white;
+		margin: 0 30px 0 30px;
+
+		.illusion-video {
+			position: relative;
+			margin-top: 10px;
+			width: 330px;
+		}
+	}
 }
 
 .gaming-loops-text-content {
@@ -39,19 +53,6 @@
 	cursor: pointer;
 }
 
-.tiffany-img {
-	width: 30%;
-	height: 30%;
-	border-radius: 25px;
-	margin-left: 30px;
-	box-shadow: 0px 0px 10px black;
-}
-.illusion-video {
-	position: relative;
-	margin-top: 10px;
-	width: 330px;
-}
-
 .gaming-loops-img {
 	width: 40%;
 	height: 40%;
@@ -63,17 +64,18 @@
 .gaming-loops-shop {
 	padding: 20px;
 	text-transform: uppercase;
-}
-.gaming-loops-shop button {
-	background-color: rgb(32, 32, 32);
-	border: 3px solid black;
-	padding: 20px;
-	cursor: pointer;
-	color: white;
-	font-weight: bold;
-	border-radius: 10px;
-	font-size: 15px;
-	transition: 0.2s;
+
+	button {
+		background-color: rgb(32, 32, 32);
+		border: 3px solid black;
+		padding: 20px;
+		cursor: pointer;
+		color: white;
+		font-weight: bold;
+		border-radius: 10px;
+		font-size: 15px;
+		transition: 0.2s;
+	}
 }
 
 .gaming-loops-shop button:hover {
