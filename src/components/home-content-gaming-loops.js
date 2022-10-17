@@ -25,7 +25,7 @@ const GamingLoops = () => {
 					wide choice. Here is my bundle - huge orchestra complied with
 					electronic sounds.
 				</p>
-				<span class="gaming-loops-shop">
+				<span className="gaming-loops-shop">
 					<a href="https://gamingloops.com/secret-jungle">
 						<button>Check out! 🛒</button>
 					</a>
