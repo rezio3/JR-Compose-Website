@@ -5,7 +5,42 @@
   margin-bottom: 50px;
 }
 
-.musical-container,
+.musical-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  padding: 30px 0;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  background-color: rgb(37, 37, 37);
+  box-shadow: 0 0 20px black;
+}
+.musical-container .musical-text-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0 30px 0 30px;
+}
+.musical-container .musical-text-content a {
+  text-decoration: none;
+  color: rgb(0, 197, 211);
+  font-weight: bold;
+  cursor: pointer;
+}
+.musical-container .musical-text-content .illusion-video {
+  position: relative;
+  margin-top: 10px;
+  width: 330px;
+}
+
+.tiffany-img {
+  width: 30%;
+  height: 30%;
+  border-radius: 25px;
+  margin-left: 30px;
+  box-shadow: 0px 0px 10px black;
+}
+
 .gaming-loops-container {
   display: flex;
   justify-content: space-evenly;
@@ -16,44 +51,15 @@
   background-color: rgb(37, 37, 37);
   box-shadow: 0 0 20px black;
 }
-.musical-container .tiffany-img,
-.gaming-loops-container .tiffany-img {
-  width: 30%;
-  height: 30%;
-  border-radius: 25px;
-  margin-left: 30px;
-  box-shadow: 0px 0px 10px black;
-}
-.musical-container .musical-text-content,
-.musical-container .gaming-loops-text-content,
-.gaming-loops-container .musical-text-content,
 .gaming-loops-container .gaming-loops-text-content {
   display: flex;
   flex-direction: column;
   color: white;
   margin: 0 30px 0 30px;
-}
-.musical-container .musical-text-content .illusion-video,
-.musical-container .gaming-loops-text-content .illusion-video,
-.gaming-loops-container .musical-text-content .illusion-video,
-.gaming-loops-container .gaming-loops-text-content .illusion-video {
-  position: relative;
-  margin-top: 10px;
-  width: 330px;
-}
-
-.gaming-loops-text-content {
   align-items: center;
   text-align: center;
   justify-content: center;
   height: 100%;
-}
-
-.musical-text-content a {
-  text-decoration: none;
-  color: rgb(0, 197, 211);
-  font-weight: bold;
-  cursor: pointer;
 }
 
 .gaming-loops-img {
