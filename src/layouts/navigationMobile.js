@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../style/navigationMobile.css";
+import "../style/css/navigationMobile.css";
 import NavigationInBurgerIcon from "../components/navigationInBurgerIcon";
 
 class NavigationMobile extends Component {

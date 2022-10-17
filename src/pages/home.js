@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/pages-style/home.css";
+import "../style/css/home.css";
 import Musical from "../components/home-content-musical";
 import GamingLoops from "../components/home-content-gaming-loops";
 

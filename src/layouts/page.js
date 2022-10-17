@@ -5,7 +5,7 @@ import Music from "../pages/music";
 import Credits from "../pages/credits";
 import Offer from "../pages/offer";
 import Contact from "../pages/contact";
-import "../style/page.css";
+import "../style/css/page.css";
 
 class Page extends Component {
 	state = {};

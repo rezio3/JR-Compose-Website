@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../style/navigationInBurgerIcon.css";
+import "../style/css/navigationInBurgerIcon.css";
 
 const NavigationInBurgerIcon = (props) => {
 	return (
