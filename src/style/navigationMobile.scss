@@ -2,7 +2,6 @@
 
 .nav-bar-mobile {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 
 	height: 60px;
@@ -10,8 +9,8 @@
 	background-color: rgb(58, 58, 58);
 	overflow: visible;
 
-	.jrcompose-logo-container {
-		margin-left: 30px;
+	.jrcompose-logo-container-mobile {
+		margin-left: 15px;
 		display: flex;
 		align-items: center;
 
@@ -20,10 +19,16 @@
 		}
 
 		.jrcompose-span {
-			font-size: 28px;
+			font-size: 20px;
 			color: white;
 			font-family: "Hammersmith One", sans-serif;
 			font-style: italic;
+		}
+
+		@media (max-width: 550px) {
+			.jrcompose-span {
+				font-size: 14px;
+			}
 		}
 	}
 
@@ -45,5 +50,29 @@
 
 	.deactive {
 		display: none;
+	}
+
+	.icons-container-mobile-navigation {
+		margin: 0 10px 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		letter-spacing: 15px;
+
+		.fa-brands {
+			font-size: 20px;
+			color: rgb(156, 156, 156);
+			cursor: pointer;
+			transition: 0.2s;
+		}
+
+		.fa-soundcloud:hover,
+		.fa-youtube:hover,
+		.fa-linkedin:hover,
+		.fa-twitter:hover,
+		.fa-spotify:hover {
+			color: $hover-color;
+			text-shadow: $hover-shadow;
+		}
 	}
 }

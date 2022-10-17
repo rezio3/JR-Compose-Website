@@ -1,25 +1,29 @@
 .nav-bar-mobile {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 60px;
   width: 100%;
   background-color: rgb(58, 58, 58);
   overflow: visible;
 }
-.nav-bar-mobile .jrcompose-logo-container {
-  margin-left: 30px;
+.nav-bar-mobile .jrcompose-logo-container-mobile {
+  margin-left: 15px;
   display: flex;
   align-items: center;
 }
-.nav-bar-mobile .jrcompose-logo-container .treble-clef-img {
+.nav-bar-mobile .jrcompose-logo-container-mobile .treble-clef-img {
   width: 35px;
 }
-.nav-bar-mobile .jrcompose-logo-container .jrcompose-span {
-  font-size: 28px;
+.nav-bar-mobile .jrcompose-logo-container-mobile .jrcompose-span {
+  font-size: 20px;
   color: white;
   font-family: "Hammersmith One", sans-serif;
   font-style: italic;
+}
+@media (max-width: 550px) {
+  .nav-bar-mobile .jrcompose-logo-container-mobile .jrcompose-span {
+    font-size: 14px;
+  }
 }
 .nav-bar-mobile .burger-icon {
   display: block;
@@ -37,4 +41,25 @@
 }
 .nav-bar-mobile .deactive {
   display: none;
+}
+.nav-bar-mobile .icons-container-mobile-navigation {
+  margin: 0 10px 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 15px;
+}
+.nav-bar-mobile .icons-container-mobile-navigation .fa-brands {
+  font-size: 20px;
+  color: rgb(156, 156, 156);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.nav-bar-mobile .icons-container-mobile-navigation .fa-soundcloud:hover,
+.nav-bar-mobile .icons-container-mobile-navigation .fa-youtube:hover,
+.nav-bar-mobile .icons-container-mobile-navigation .fa-linkedin:hover,
+.nav-bar-mobile .icons-container-mobile-navigation .fa-twitter:hover,
+.nav-bar-mobile .icons-container-mobile-navigation .fa-spotify:hover {
+  color: rgb(98, 255, 255);
+  text-shadow: 0 0 5px rgb(79, 255, 255);
 }

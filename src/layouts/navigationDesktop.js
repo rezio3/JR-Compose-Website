@@ -6,7 +6,7 @@ import trebleClef from "../images/cleff.png";
 const NavigationDesktop = () => {
 	return (
 		<nav className="nav-bar-desktop">
-			<div className="jrcompose-logo-container">
+			<div className="jrcompose-logo-container-desktop">
 				<img src={trebleClef} alt="treble-clef" className="treble-clef-img" />
 				<span className="jrcompose-span">JR Compose</span>
 			</div>
@@ -27,7 +27,7 @@ const NavigationDesktop = () => {
 					Contact
 				</NavLink>
 			</div>
-			<div className="icons-container-navigation">
+			<div className="icons-container-desktop-navigation">
 				<a href="https://soundcloud.com/jakub-rezler-883804903">
 					<i className="fa-brands fa-soundcloud"></i>
 				</a>
