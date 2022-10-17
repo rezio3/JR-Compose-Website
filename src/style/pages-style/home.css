@@ -1,0 +1,49 @@
+.musical-container {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 30px 0;
+	border-radius: 30px;
+	background-color: rgb(37, 37, 37);
+}
+
+.musical-text-content {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin: 0 30px 0 30px;
+}
+
+.musical-text-content a {
+	text-decoration: none;
+	color: rgb(0, 197, 211);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.tiffany-img {
+	width: 280px;
+	border-radius: 40px;
+	margin-left: 30px;
+	box-shadow: 0 0 20px black;
+}
+
+@media (max-width: 992px) {
+	.tiffany-img {
+		width: 180px;
+	}
+}
+
+@media (max-width: 700px) {
+	.tiffany-img {
+		width: 280px;
+	}
+	.musical-container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.musical-text-content {
+		align-items: center;
+		text-align: center;
+	}
+}

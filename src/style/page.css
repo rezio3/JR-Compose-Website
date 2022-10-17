@@ -1,6 +1,7 @@
 .page-container {
-	background-color: #ddd;
+	background-color: rgb(75, 75, 75);
 	margin: 20px auto;
-	width: 70%;
+	width: 90%;
+	max-width: 1200px;
 	min-height: 100vh;
 }
