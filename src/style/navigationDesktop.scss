@@ -2,30 +2,51 @@
 
 .nav-bar-desktop {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 
 	height: 60px;
 	width: 100%;
 	background-color: rgb(58, 58, 58);
 
-	.nav-btn-desktop {
-		text-decoration: none;
-		padding: 19px 50px;
-		font-size: 15px;
-		font-weight: bold;
-		text-transform: uppercase;
-		color: $first-color;
-		transition: 0.2s;
+	.jrcompose-logo-container {
+		margin-left: 30px;
+		display: flex;
+		align-items: center;
+
+		.treble-clef-img {
+			width: 35px;
+		}
+
+		.jrcompose-span {
+			font-size: 28px;
+			color: white;
+			font-family: "Hammersmith One", sans-serif;
+			font-style: italic;
+		}
 	}
 
-	.nav-btn-desktop:hover {
-		color: $hover-color;
-		text-shadow: $hover-shadow;
-	}
+	.desktop-nav-links {
+		margin-right: 20px;
 
-	.active {
-		color: $hover-color;
-		text-shadow: $hover-shadow;
+		.nav-btn-desktop {
+			text-decoration: none;
+			padding: 19px 30px;
+			font-size: 15px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: $first-color;
+			transition: 0.2s;
+		}
+
+		.nav-btn-desktop:hover {
+			color: $hover-color;
+			text-shadow: $hover-shadow;
+		}
+
+		.active {
+			color: $hover-color;
+			text-shadow: $hover-shadow;
+		}
 	}
 }
