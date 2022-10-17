@@ -1,3 +1,5 @@
+@import "./colors";
+
 .nav-burger-container {
 	margin: auto 0 0 auto;
 	display: flex;
@@ -28,23 +30,23 @@
 		background: none;
 		border: none;
 		font-size: 50px;
-		color: aqua;
+		color: $first-color;
 		cursor: pointer;
 		transition: 0.2s;
 	}
 
 	.x-btn:hover {
-		color: rgb(98, 255, 255);
-		text-shadow: 0 0 5px rgb(79, 255, 255);
+		color: $hover-color;
+		text-shadow: $hover-shadow;
 	}
 
 	.nav-btn-mobile:hover {
-		color: rgb(98, 255, 255);
-		text-shadow: 0 0 5px rgb(79, 255, 255);
+		color: $hover-color;
+		text-shadow: $hover-shadow;
 	}
 
 	.active {
-		color: rgb(98, 255, 255);
-		text-shadow: 0 0 5px rgb(79, 255, 255);
+		color: $hover-color;
+		text-shadow: $hover-shadow;
 	}
 }

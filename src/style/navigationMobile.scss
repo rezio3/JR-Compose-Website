@@ -15,14 +15,14 @@
 		background: none;
 		border: none;
 		font-size: 40px;
-		color: aqua;
+		color: $first-color;
 		cursor: pointer;
 		transition: 0.2s;
 	}
 
 	.burger-icon:hover {
-		color: rgb(98, 255, 255);
-		text-shadow: 0 0 5px rgb(79, 255, 255);
+		color: $hover-color;
+		text-shadow: $hover-shadow;
 	}
 
 	.deactive {

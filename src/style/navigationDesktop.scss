@@ -1,3 +1,5 @@
+@import "./colors";
+
 .nav-bar {
 	display: flex;
 	justify-content: center;
@@ -13,17 +15,17 @@
 		font-size: 15px;
 		font-weight: bold;
 		text-transform: uppercase;
-		color: aqua;
+		color: $first-color;
 		transition: 0.2s;
 	}
 
 	.nav-btn-desktop:hover {
-		color: rgb(98, 255, 255);
-		text-shadow: 0 0 5px rgb(79, 255, 255);
+		color: $hover-color;
+		text-shadow: $hover-shadow;
 	}
 
 	.active {
-		color: rgb(98, 255, 255);
-		text-shadow: 0 0 5px rgb(79, 255, 255);
+		color: $hover-color;
+		text-shadow: $hover-shadow;
 	}
 }
