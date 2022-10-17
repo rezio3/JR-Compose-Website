@@ -2,7 +2,7 @@
 
 .nav-bar-desktop {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 
 	height: 60px;
@@ -10,7 +10,7 @@
 	background-color: rgb(58, 58, 58);
 
 	.jrcompose-logo-container {
-		margin-left: 30px;
+		margin-left: 100px;
 		display: flex;
 		align-items: center;
 
@@ -24,10 +24,15 @@
 			font-family: "Hammersmith One", sans-serif;
 			font-style: italic;
 		}
+		@media (max-width: 1270px) {
+			.jrcompose-span {
+				font-size: 18px;
+			}
+		}
 	}
 
 	.desktop-nav-links {
-		margin-right: 20px;
+		margin: 0 40px;
 
 		.nav-btn-desktop {
 			text-decoration: none;
@@ -45,6 +50,36 @@
 		}
 
 		.active {
+			color: $hover-color;
+			text-shadow: $hover-shadow;
+		}
+
+		@media (max-width: 1270px) {
+			.nav-btn-desktop {
+				padding: 19px 10px;
+			}
+		}
+	}
+
+	.icons-container-navigation {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		letter-spacing: 20px;
+		margin-right: 100px;
+
+		.fa-brands {
+			font-size: 25px;
+			color: rgb(156, 156, 156);
+			cursor: pointer;
+			transition: 0.2s;
+		}
+
+		.fa-soundcloud:hover,
+		.fa-youtube:hover,
+		.fa-linkedin:hover,
+		.fa-twitter:hover,
+		.fa-spotify:hover {
 			color: $hover-color;
 			text-shadow: $hover-shadow;
 		}
