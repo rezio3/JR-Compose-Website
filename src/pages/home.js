@@ -6,7 +6,7 @@ import Faustgeist from "../components/home-content-faustgeist";
 
 const Home = () => {
 	return (
-		<div>
+		<div className="home-container">
 			<Musical />
 			<GamingLoops />
 			<Faustgeist />

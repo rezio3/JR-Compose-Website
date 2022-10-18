@@ -5,19 +5,12 @@ import Media from "react-media";
 const GamingLoops = () => {
 	return (
 		<div className="gaming-loops-container">
-			<Media query="(min-width: 700px)">
-				{(matches) => {
-					return (
-						matches && (
-							<img
-								src={secretJungle}
-								alt="secret_jungle logo"
-								className="gaming-loops-img"
-							/>
-						)
-					);
-				}}
-			</Media>
+			<img
+				src={secretJungle}
+				alt="secret_jungle logo"
+				className="gaming-loops-img"
+			/>
+
 			<div className="gaming-loops-text-content">
 				<h2>Gaming Loops</h2>
 				<p>
@@ -32,19 +25,6 @@ const GamingLoops = () => {
 					</a>
 				</span>
 			</div>
-			<Media query="(max-width: 701px)">
-				{(matches) => {
-					return (
-						matches && (
-							<img
-								src={secretJungle}
-								alt="secret_jungle logo"
-								className="gaming-loops-img"
-							/>
-						)
-					);
-				}}
-			</Media>
 		</div>
 	);
 };
