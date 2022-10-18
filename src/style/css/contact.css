@@ -1,0 +1,98 @@
+.contact {
+  width: 70%;
+  height: 620px;
+  margin: 0 auto;
+  border: 2px solid #333;
+  border-radius: 15px;
+  padding: 0 50px;
+}
+.contact .error-span {
+  color: red;
+  margin-left: 10px;
+  font-size: 13px;
+}
+.contact .hurray-span {
+  color: aqua;
+  font-size: 18px;
+}
+.contact h2 {
+  font-size: 25px;
+  color: white;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+.contact form label {
+  color: aqua;
+  margin-bottom: 20px;
+}
+.contact form .message-label {
+  margin-bottom: 5px;
+}
+.contact form .input {
+  background-color: rgb(58, 58, 58);
+  border: 2px solid #333;
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.contact form .email-input {
+  margin-left: 15px;
+}
+.contact form .textarea-box {
+  padding: 10px;
+  height: 200px;
+  background-color: rgb(58, 58, 58);
+  border: 2px solid #333;
+  color: white;
+  font-size: 18px;
+}
+.contact form .send-btn {
+  width: 100px;
+  height: 50px;
+  margin: 40px auto;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contact form .send-btn:hover {
+  background-color: #333;
+  border: 2px solid aqua;
+  color: aqua;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 20px auto 0;
+}
+.contact-info-container h3 {
+  margin: 30px 0 0;
+  color: white;
+}
+.contact-info-container .divide-line {
+  width: 100%;
+  max-width: 400px;
+  height: 3px;
+  background-color: rgb(223, 223, 223);
+  margin: 30px auto 40px;
+}
+.contact-info-container i {
+  font-size: 20px;
+  color: aqua;
+  margin-bottom: 10px;
+}
+.contact-info-container i span {
+  font-size: 15px;
+  margin-left: 10px;
+  letter-spacing: 2px;
+  color: white;
+}
