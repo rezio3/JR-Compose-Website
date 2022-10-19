@@ -36,6 +36,16 @@
   color: white;
   font-size: 18px;
   margin-left: 10px;
+  width: 220px;
+}
+@media (max-width: 992px) {
+  .contact form .input {
+    width: 180px;
+    font-size: 15px;
+  }
+  .contact form label {
+    font-size: 13px;
+  }
 }
 .contact form .email-input {
   margin-left: 15px;
