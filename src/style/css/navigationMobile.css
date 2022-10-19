@@ -1,10 +1,13 @@
 .nav-bar-mobile {
+  position: fixed;
+  top: 0;
   display: flex;
   align-items: center;
   height: 60px;
   width: 100%;
   background-color: rgb(58, 58, 58);
   overflow: visible;
+  z-index: 5;
 }
 .nav-bar-mobile .jrcompose-logo-container-mobile {
   margin-left: 15px;
