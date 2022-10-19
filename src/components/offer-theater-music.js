@@ -17,34 +17,37 @@ const Price = (props) => {
 
 const OfferTheaterMusic = () => {
 	return (
-		<div class="third-container">
-			<h3 class="theatre-music-header">Theater Music</h3>
-			<div class="offer-container">
+		<div className="third-container">
+			<h3 className="theatre-music-header">Theater Music</h3>
+			<div className="offer-container">
 				<table>
-					<tr>
-						<th class="empty-cell"></th>
-						{theaterMusicPrices.duration.map((e) => (
-							<Duration duration={e} />
-						))}
-					</tr>
-					<tr>
-						<td>Classical</td>
-						{theaterMusicPrices.classical.map((e) => (
-							<Price price={e} />
-						))}
-					</tr>
-					<tr>
-						<td>Elektronic</td>
-						{theaterMusicPrices.electronic.map((e) => (
-							<Price price={e} />
-						))}
-					</tr>
-					<tr>
-						<td>Hybrid</td>
-						{theaterMusicPrices.hybrid.map((e) => (
-							<Price price={e} />
-						))}
-					</tr>
+					<thead></thead>
+					<tbody>
+						<tr>
+							<th className="empty-cell"></th>
+							{theaterMusicPrices.duration.map((e) => (
+								<Duration duration={e} key={e} />
+							))}
+						</tr>
+						<tr>
+							<td>Classical</td>
+							{theaterMusicPrices.classical.map((e) => (
+								<Price price={e} key={e} />
+							))}
+						</tr>
+						<tr>
+							<td>Elektronic</td>
+							{theaterMusicPrices.electronic.map((e) => (
+								<Price price={e} key={e} />
+							))}
+						</tr>
+						<tr>
+							<td>Hybrid</td>
+							{theaterMusicPrices.hybrid.map((e) => (
+								<Price price={e} key={e} />
+							))}
+						</tr>
+					</tbody>
 				</table>
 			</div>
 		</div>

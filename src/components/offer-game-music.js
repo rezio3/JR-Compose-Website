@@ -21,30 +21,33 @@ const OfferGameMusic = () => {
 			<h3 className="game-music-header">Game Music</h3>
 			<div className="offer-container">
 				<table>
-					<tr>
-						<th className="empty-cell"></th>
-						{gameMusicPrices.duration.map((e) => (
-							<Duration duration={e} />
-						))}
-					</tr>
-					<tr>
-						<td>Classical</td>
-						{gameMusicPrices.classical.map((e) => (
-							<Price price={e} />
-						))}
-					</tr>
-					<tr>
-						<td>Elektronic</td>
-						{gameMusicPrices.electronic.map((e) => (
-							<Price price={e} />
-						))}
-					</tr>
-					<tr>
-						<td>Hybrid</td>
-						{gameMusicPrices.hybrid.map((e) => (
-							<Price price={e} />
-						))}
-					</tr>
+					<thead></thead>
+					<tbody>
+						<tr>
+							<th className="empty-cell"></th>
+							{gameMusicPrices.duration.map((e) => (
+								<Duration duration={e} key={e} />
+							))}
+						</tr>
+						<tr>
+							<td>Classical</td>
+							{gameMusicPrices.classical.map((e) => (
+								<Price price={e} key={e} />
+							))}
+						</tr>
+						<tr>
+							<td>Elektronic</td>
+							{gameMusicPrices.electronic.map((e) => (
+								<Price price={e} key={e} />
+							))}
+						</tr>
+						<tr>
+							<td>Hybrid</td>
+							{gameMusicPrices.hybrid.map((e) => (
+								<Price price={e} key={e} />
+							))}
+						</tr>
+					</tbody>
 				</table>
 			</div>
 		</div>

@@ -17,34 +17,37 @@ const Price = (props) => {
 
 const OfferFilmMusic = () => {
 	return (
-		<div class="second-container">
-			<h3 class="film-music-header">Film Music</h3>
-			<div class="offer-container">
+		<div className="second-container">
+			<h3 className="film-music-header">Film Music</h3>
+			<div className="offer-container">
 				<table>
-					<tr>
-						<th class="empty-cell"></th>
-						{filmMusicPrices.duration.map((e) => (
-							<Duration duration={e} />
-						))}
-					</tr>
-					<tr>
-						<td>Classical</td>
-						{filmMusicPrices.classical.map((e) => (
-							<Price price={e} />
-						))}
-					</tr>
-					<tr>
-						<td>Elektronic</td>
-						{filmMusicPrices.electronic.map((e) => (
-							<Price price={e} />
-						))}
-					</tr>
-					<tr>
-						<td>Hybrid</td>
-						{filmMusicPrices.hybrid.map((e) => (
-							<Price price={e} />
-						))}
-					</tr>
+					<thead></thead>
+					<tbody>
+						<tr>
+							<th className="empty-cell"></th>
+							{filmMusicPrices.duration.map((e) => (
+								<Duration duration={e} key={e} />
+							))}
+						</tr>
+						<tr>
+							<td>Classical</td>
+							{filmMusicPrices.classical.map((e) => (
+								<Price price={e} key={e} />
+							))}
+						</tr>
+						<tr>
+							<td>Elektronic</td>
+							{filmMusicPrices.electronic.map((e) => (
+								<Price price={e} key={e} />
+							))}
+						</tr>
+						<tr>
+							<td>Hybrid</td>
+							{filmMusicPrices.hybrid.map((e) => (
+								<Price price={e} key={e} />
+							))}
+						</tr>
+					</tbody>
 				</table>
 			</div>
 		</div>
