@@ -47,9 +47,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: 15px;
 }
 .nav-bar-mobile .icons-container-mobile-navigation .fa-brands {
+  padding: 0 8px;
   font-size: 20px;
   color: rgb(156, 156, 156);
   cursor: pointer;
