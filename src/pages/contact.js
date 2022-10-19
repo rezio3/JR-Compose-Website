@@ -97,7 +97,7 @@ class Contact extends Component {
 						<span>jakub.rezler96@gmail.com</span>
 					</i>
 					<i className="fa-solid fa-phone">
-						<span>+48 724-863-771</span>
+						<span>+48 724 863 771</span>
 					</i>
 					<div className="divide-line"></div>
 				</div>
