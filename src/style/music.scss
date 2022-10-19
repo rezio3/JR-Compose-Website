@@ -1,0 +1,84 @@
+@import "./colors";
+
+.music-list-container {
+	display: flex;
+	justify-content: center;
+	height: 500px;
+
+	ul {
+		list-style-type: none;
+		width: 100%;
+		padding: 0;
+
+		li {
+			width: 100%;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			color: white;
+			padding: 20px 0;
+			text-align: center;
+		}
+		li:nth-child(odd) {
+			background-color: rgb(75, 75, 75);
+		}
+		li:nth-child(even) {
+			background-color: rgb(61, 61, 61);
+		}
+
+		@media (max-width: 600px) {
+			li {
+				flex-direction: column;
+				padding: 10px 0 20px;
+			}
+		}
+	}
+	audio {
+		height: 30px;
+		width: 250px;
+		color: black;
+		margin: 0 30px 0 auto;
+	}
+
+	label {
+		margin: 0 100px;
+		color: $first-color;
+		font-size: 20px;
+		font-weight: bold;
+		letter-spacing: 4px;
+	}
+
+	span {
+		color: white;
+		font-size: 16px;
+		font-weight: normal;
+		letter-spacing: 0px;
+		margin-left: 50px;
+	}
+
+	@media (max-width: 992px) {
+		label {
+			margin: 0 10px;
+		}
+		audio {
+			margin: 0 10px 0 auto;
+		}
+	}
+
+	@media (max-width: 600px) {
+		span {
+			margin: 0;
+			font-size: 14px;
+		}
+
+		label {
+			font-size: 16px;
+			margin: 0;
+			padding-bottom: 10px;
+		}
+
+		audio {
+			margin: 0;
+		}
+	}
+}
