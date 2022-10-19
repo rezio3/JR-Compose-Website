@@ -8,6 +8,7 @@
   width: 100%;
   background-color: rgb(58, 58, 58);
   z-index: 5;
+  border-bottom: 3px solid black;
 }
 .nav-bar-desktop .jrcompose-logo-container-desktop {
   margin-left: 100px;
