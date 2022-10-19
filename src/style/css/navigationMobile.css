@@ -11,7 +11,7 @@
   border-bottom: 3px solid black;
 }
 .nav-bar-mobile .jrcompose-logo-container-mobile {
-  margin-left: 15px;
+  margin-left: 8px;
   display: flex;
   align-items: center;
 }
@@ -26,12 +26,12 @@
 }
 @media (max-width: 550px) {
   .nav-bar-mobile .jrcompose-logo-container-mobile .jrcompose-span {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .nav-bar-mobile .burger-icon {
   display: block;
-  padding: 3px 20px;
+  padding: 3px 20px 3px 10px;
   background: none;
   border: none;
   font-size: 40px;
