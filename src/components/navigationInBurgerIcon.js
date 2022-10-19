@@ -14,13 +14,6 @@ const NavigationInBurgerIcon = (props) => {
 			<NavLink to="/music" className="nav-btn-mobile" onClick={props.btnHandle}>
 				Music
 			</NavLink>
-			<NavLink
-				to="/credits"
-				className="nav-btn-mobile"
-				onClick={props.btnHandle}
-			>
-				Credits
-			</NavLink>
 			<NavLink to="/offer" className="nav-btn-mobile" onClick={props.btnHandle}>
 				Offer
 			</NavLink>

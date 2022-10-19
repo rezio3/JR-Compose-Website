@@ -17,9 +17,6 @@ const NavigationDesktop = () => {
 				<NavLink to="/music" className="nav-btn-desktop">
 					Music
 				</NavLink>
-				<NavLink to="/credits" className="nav-btn-desktop">
-					Credits
-				</NavLink>
 				<NavLink to="/offer" className="nav-btn-desktop">
 					Offer
 				</NavLink>
