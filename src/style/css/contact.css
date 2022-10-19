@@ -106,3 +106,10 @@
   letter-spacing: 2px;
   color: white;
 }
+
+@media (max-width: 700px) {
+  .contact {
+    width: 90%;
+    padding: 0 10px;
+  }
+}
