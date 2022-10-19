@@ -8,8 +8,9 @@
 	flex-direction: column;
 	align-items: center;
 	background: linear-gradient(to right, #333333, #3d3d3d, #414141, #4b4b4b);
-	margin-top: 30px;
+	margin: 30px 0 70px 0;
 	border-radius: 15px;
+	font-size: 16px;
 }
 
 .game-music-header,
@@ -38,5 +39,21 @@
 		th {
 			font-weight: bold;
 		}
+	}
+}
+
+@media (max-width: 992px) {
+	.first-container,
+	.second-container,
+	.third-container {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 700px) {
+	.first-container,
+	.second-container,
+	.third-container {
+		font-size: 10px;
 	}
 }
