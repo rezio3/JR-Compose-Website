@@ -1,13 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../style/css/navigationDesktop.css";
-import trebleClef from "../images/cleff.png";
 
 const NavigationDesktop = () => {
 	return (
 		<nav className="nav-bar-desktop">
 			<div className="jrcompose-logo-container-desktop">
-				<img src={trebleClef} alt="treble-clef" className="treble-clef-img" />
 				<span className="jrcompose-span">JR Compose</span>
 			</div>
 			<div className="desktop-nav-links">

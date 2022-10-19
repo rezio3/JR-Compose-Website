@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "../style/css/navigationMobile.css";
 import NavigationInBurgerIcon from "../components/navigationInBurgerIcon";
-import trebleClef from "../images/cleff.png";
-import Media from "react-media";
 
 class NavigationMobile extends Component {
 	state = {
@@ -23,24 +21,7 @@ class NavigationMobile extends Component {
 		return (
 			<nav className="nav-bar-mobile">
 				<div className="jrcompose-logo-container-mobile">
-					<Media query="(min-width: 550px)">
-						{(matches) => {
-							return (
-								matches && (
-									<img
-										src={trebleClef}
-										alt="treble-clef"
-										className="treble-clef-img"
-									/>
-								)
-							);
-						}}
-					</Media>
-
-					<span className="jrcompose-span">
-						JR <br />
-						Compose
-					</span>
+					<span className="jrcompose-span">JR Compose</span>
 				</div>
 				<div className="icons-container-mobile-navigation">
 					<a href="https://soundcloud.com/jakub-rezler-883804903">
