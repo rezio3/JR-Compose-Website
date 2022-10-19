@@ -53,4 +53,12 @@
 .third-container {
     font-size: 10px;
   }
+  .offer-container table {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .offer-container table td,
+.offer-container table th {
+    padding: 4px;
+  }
 }
