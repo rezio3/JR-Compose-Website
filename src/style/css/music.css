@@ -23,7 +23,7 @@
 .music-list-container ul li:nth-child(even) {
   background-color: rgb(61, 61, 61);
 }
-@media (max-width: 600px) {
+@media (max-width: 830px) {
   .music-list-container ul li {
     flex-direction: column;
     padding: 10px 0 20px;
@@ -36,7 +36,7 @@
   margin: 0 30px 0 auto;
 }
 .music-list-container label {
-  margin: 0 100px;
+  margin: 0 30px 0 100px;
   color: aqua;
   font-size: 20px;
   font-weight: bold;
@@ -49,6 +49,18 @@
   letter-spacing: 0px;
   margin-left: 50px;
 }
+.music-list-container a {
+  color: rgb(207, 207, 207);
+  text-decoration: none;
+  font-style: italic;
+  font-size: 12px;
+  transition: 0.2s;
+  padding: 5px 0;
+}
+.music-list-container a:hover {
+  color: rgb(98, 255, 255);
+  text-shadow: 0 0 5px rgb(79, 255, 255);
+}
 @media (max-width: 992px) {
   .music-list-container label {
     margin: 0 10px;
@@ -57,7 +69,7 @@
     margin: 0 10px 0 auto;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 830px) {
   .music-list-container span {
     margin: 0;
     font-size: 14px;
@@ -69,5 +81,8 @@
   }
   .music-list-container audio {
     margin: 0;
+  }
+  .music-list-container a {
+    margin-bottom: 10px;
   }
 }
