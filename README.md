@@ -1,5 +1,5 @@
 # Website
-jrcompose.prv.pl
+http://jrcompose.prv.pl/
 
 ## Project description
 
