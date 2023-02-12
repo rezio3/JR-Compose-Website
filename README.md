@@ -1,8 +1,21 @@
-# Getting Started with Create React App
+# Website
+http://jrcompose.prv.pl/
+
+## Project description
+
+- Single Page Application
+- Mobile First
+- Page is using the production build of React.
+
+Website is built as a part of my portfolio. It doesn't contain any backend, so the form at the Contact page is not working - it's just styled form with validation made with React.js.
+One of goals of building this website was to train using of React Router and NavLinks, to change url address without refreshing whole site.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
