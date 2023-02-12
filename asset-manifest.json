@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/JR-Compose-Website/static/css/main.739cf115.css",
+    "main.js": "/JR-Compose-Website/static/js/main.5ceda585.js",
+    "static/media/Lupo2.mp3": "/JR-Compose-Website/static/media/Lupo2.79e0a40a7b3e78f14027.mp3",
+    "static/media/westworld.mp3": "/JR-Compose-Website/static/media/westworld.9f28a66e408a0f497ed8.mp3",
+    "static/media/Escape.mp3": "/JR-Compose-Website/static/media/Escape.d08b8b7fb9267c8a2ddd.mp3",
+    "static/media/illusion.mp4": "/JR-Compose-Website/static/media/illusion.b95ebbf037539a9eed2e.mp4",
+    "static/media/Thick_Jungle.mp3": "/JR-Compose-Website/static/media/Thick_Jungle.130fe8ba365e2e94bc3f.mp3",
+    "static/media/lupo1.mp3": "/JR-Compose-Website/static/media/lupo1.736ef68b22c85a828290.mp3",
+    "static/media/Faustgeist_Segment_0.mp3": "/JR-Compose-Website/static/media/Faustgeist_Segment_0.75c4abcac21cc67196c4.mp3",
+    "static/media/Abiogenesis.mp3": "/JR-Compose-Website/static/media/Abiogenesis.7d1f8e0860d8b6cbce6f.mp3",
+    "static/media/Kuama.mp3": "/JR-Compose-Website/static/media/Kuama.6e87f795e846272ebdc7.mp3",
+    "static/media/teddy_bear.mp3": "/JR-Compose-Website/static/media/teddy_bear.5edbb0ece714bb59972d.mp3",
+    "static/media/Extinction_Paradigm.mp3": "/JR-Compose-Website/static/media/Extinction_Paradigm.ff5222db311ed65a0230.mp3",
+    "static/media/header.jpg": "/JR-Compose-Website/static/media/header.a0d46404df800e5e97f1.jpg",
+    "static/media/secret_jungle.png": "/JR-Compose-Website/static/media/secret_jungle.0bc712dba14e5f26daf6.png",
+    "static/media/fg.jpg": "/JR-Compose-Website/static/media/fg.fde65d6c61e47f421aa1.jpg",
+    "static/media/Tiffany's.jpg": "/JR-Compose-Website/static/media/Tiffany's.761ae4a33f6820a4c356.jpg",
+    "index.html": "/JR-Compose-Website/index.html",
+    "main.739cf115.css.map": "/JR-Compose-Website/static/css/main.739cf115.css.map",
+    "main.5ceda585.js.map": "/JR-Compose-Website/static/js/main.5ceda585.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.739cf115.css",
+    "static/js/main.5ceda585.js"
+  ]
+}
