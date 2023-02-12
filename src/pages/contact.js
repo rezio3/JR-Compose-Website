@@ -56,19 +56,23 @@ class Contact extends Component {
 				<div className="contact">
 					<h2>Order your music!</h2>
 					<form onSubmit={this.handleSubmit} noValidate>
-						<label>
+						<label for="name">
 							Name:
 							<input
-								type="text"
+								id="name"
+								name="name"
+								type="name"
 								value={this.state.nameValue}
 								onChange={this.handleName}
 								className="input"
 							/>
 						</label>
-						<label>
+						<label for="mail">
 							Email:
 							<input
-								type="text"
+								id="mail"
+								name="mail"
+								type="mail"
 								value={this.state.emailValue}
 								onChange={this.handleEmail}
 								className="input email-input"
@@ -77,14 +81,22 @@ class Contact extends Component {
 								<span className="error-span">Email needs @</span>
 							)}
 						</label>
-						<label className="message-label">Message:</label>
+						<label className="message-label" for="msg">
+							Message:
+						</label>
 						<textarea
+							id="msg"
+							name="msg"
 							value={this.state.textValue}
 							className="textarea-box"
 							placeholder="Send a message..."
 							onChange={this.handleTextarea}
 						/>
-						<button className="send-btn">Send</button>
+						{/* <label for="attachment">Select a file:</label>
+						<input type="file" id="file" name="attachment"></input> */}
+						<button className="send-btn" type="submit">
+							Send
+						</button>
 					</form>
 					{this.state.sent && (
 						<span className="hurray-span">Hurray! Message sent!</span>
