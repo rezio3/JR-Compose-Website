@@ -64,16 +64,16 @@
 
 @media (max-width: 992px) {
   .first-container,
-.second-container,
-.third-container {
+  .second-container,
+  .third-container {
     font-size: 14px;
     width: 100%;
   }
 }
 @media (max-width: 700px) {
   .first-container,
-.second-container,
-.third-container {
+  .second-container,
+  .third-container {
     font-size: 10px;
   }
   .offer-container table {
@@ -81,7 +81,7 @@
     margin: 0 auto;
   }
   .offer-container table td,
-.offer-container table th {
+  .offer-container table th {
     padding: 4px;
   }
 }

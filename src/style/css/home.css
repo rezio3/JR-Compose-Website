@@ -127,27 +127,27 @@
 
 @media (max-width: 700px) {
   .tiffany-img,
-.gaming-loops-img,
-.faustgeist-img {
+  .gaming-loops-img,
+  .faustgeist-img {
     margin: 0;
     width: 280px;
   }
   .musical-container,
-.gaming-loops-container,
-.faustgeist-container {
+  .gaming-loops-container,
+  .faustgeist-container {
     flex-direction: column;
     align-items: center;
   }
   .musical-text-content,
-.gaming-loops-text-content,
-.faustgeist-text-content {
+  .gaming-loops-text-content,
+  .faustgeist-text-content {
     justify-content: center;
     align-items: center;
     text-align: center;
   }
   .musical-text-content .illusion-video,
-.gaming-loops-text-content .illusion-video,
-.faustgeist-text-content .illusion-video {
+  .gaming-loops-text-content .illusion-video,
+  .faustgeist-text-content .illusion-video {
     width: 300px;
   }
   .gaming-loops-text-content p {
