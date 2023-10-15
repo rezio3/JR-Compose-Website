@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/css/music.css";
-import lupo2 from "../audio/Lupo2.mp3";
 import kuama from "../audio/Kuama.mp3";
 import extinction from "../audio/Extinction_Paradigm.mp3";
 import jungle from "../audio/Thick_Jungle.mp3";
@@ -14,15 +13,6 @@ const Music = () => {
 	return (
 		<div className="music-list-container">
 			<ul>
-				<li>
-					<label>
-						1.<span>Lupo 2</span>
-					</label>
-					<a href="https://soundcloud.com/jakub-rezler-883804903/lupo-2?si=7a4fc662453346ea83f708038319b11a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
-						Click here to listen in high quality
-					</a>
-					<audio src={lupo2} controls />
-				</li>
 				<li>
 					<label>
 						2.<span>Kuama</span>
