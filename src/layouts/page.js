@@ -12,7 +12,7 @@ class Page extends Component {
 		return (
 			<div className="page-container">
 				<Routes>
-					<Route path="/" element={<Home />} />
+					<Route path="/JR-Compose-Website" element={<Home />} />
 					<Route path="/music" element={<Music />} />
 					<Route path="/offer" element={<Offer />} />
 					<Route path="/contact" element={<Contact />} />

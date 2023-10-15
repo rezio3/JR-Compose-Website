@@ -9,7 +9,7 @@ const NavigationDesktop = () => {
 				<span className="jrcompose-span">JR Compose</span>
 			</div>
 			<div className="desktop-nav-links">
-				<NavLink to="/" end className="nav-btn-desktop">
+				<NavLink to="/JR-Compose-Website" end className="nav-btn-desktop">
 					Home
 				</NavLink>
 				<NavLink to="/music" className="nav-btn-desktop">

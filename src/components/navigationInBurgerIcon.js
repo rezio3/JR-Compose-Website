@@ -8,7 +8,12 @@ const NavigationInBurgerIcon = (props) => {
 			<button onClick={props.btnHandle} className="x-btn">
 				<i className="fa-solid fa-xmark"></i>
 			</button>
-			<NavLink to="/" end className="nav-btn-mobile" onClick={props.btnHandle}>
+			<NavLink
+				to="/JR-Compose-Website"
+				end
+				className="nav-btn-mobile"
+				onClick={props.btnHandle}
+			>
 				Home
 			</NavLink>
 			<NavLink to="/music" className="nav-btn-mobile" onClick={props.btnHandle}>
