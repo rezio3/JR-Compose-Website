@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/JR-Compose-Website/static/css/main.739cf115.css",
-    "main.js": "/JR-Compose-Website/static/js/main.5ceda585.js",
-    "static/media/Lupo2.mp3": "/JR-Compose-Website/static/media/Lupo2.79e0a40a7b3e78f14027.mp3",
+    "main.js": "/JR-Compose-Website/static/js/main.f5a1991b.js",
     "static/media/westworld.mp3": "/JR-Compose-Website/static/media/westworld.9f28a66e408a0f497ed8.mp3",
     "static/media/Escape.mp3": "/JR-Compose-Website/static/media/Escape.d08b8b7fb9267c8a2ddd.mp3",
     "static/media/illusion.mp4": "/JR-Compose-Website/static/media/illusion.b95ebbf037539a9eed2e.mp4",
@@ -19,10 +18,10 @@
     "static/media/Tiffany's.jpg": "/JR-Compose-Website/static/media/Tiffany's.761ae4a33f6820a4c356.jpg",
     "index.html": "/JR-Compose-Website/index.html",
     "main.739cf115.css.map": "/JR-Compose-Website/static/css/main.739cf115.css.map",
-    "main.5ceda585.js.map": "/JR-Compose-Website/static/js/main.5ceda585.js.map"
+    "main.f5a1991b.js.map": "/JR-Compose-Website/static/js/main.f5a1991b.js.map"
   },
   "entrypoints": [
     "static/css/main.739cf115.css",
-    "static/js/main.5ceda585.js"
+    "static/js/main.f5a1991b.js"
   ]
 }
